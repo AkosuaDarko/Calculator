@@ -12,6 +12,13 @@ public class Calculator{
 			
 		}
 		
+		// multiply method
+		
+		if(param[0].equals("mult")){
+			System.out.println(Integer.parseInt(param[1]) * Integer.parseInt(param[2]) );
+			
+		}
+		
 		
 		
 	}
